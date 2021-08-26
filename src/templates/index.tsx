@@ -20,7 +20,6 @@ import {
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
-  SiteTitle,
   SiteHeaderStyles,
 } from '../styles/shared';
 import config from '../website-config';
@@ -53,12 +52,14 @@ function IndexPage(props: IndexProps) {
         <html lang={config.lang} />
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
         <meta property="og:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
+        <meta property="og:locale" content={config.locale} />
         {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.googleSiteVerification && (
           <meta name="google-site-verification" content={config.googleSiteVerification} />
@@ -88,17 +89,6 @@ function IndexPage(props: IndexProps) {
           <div css={inner}>
             <SiteNav isHome />
             <SiteHeaderContent className="site-header-content">
-              <SiteTitle className="site-title">
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '55px' }}
-                    src={getSrc(props.data.logo)}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
-              </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
           </div>
@@ -174,7 +164,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             readingTime {
-              text
+              minutes
             }
             layout
             slug

@@ -86,23 +86,29 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
         {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
         <nav css={SiteNavStyles}>
           <SiteNavLeft className="site-nav-left">
-            {!isHome && <SiteNavLogo />}
+            {<SiteNavLogo />}
             <SiteNavContent css={[this.state.showTitle ? HideNav : '']}>
               <ul css={NavStyles} role="menu">
                 <li role="menuitem">
-                  <Link to="/" activeClassName="nav-current">
-                    Home
-                  </Link>
+                  <Link to="/" activeClassName="nav-current">Start</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/about" activeClassName="nav-current">
-                    About
-                  </Link>
+                  <Link to="/tags/ogloszenia/" activeClassName="nav-current">Ogłoszenia</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/tags/getting-started/" activeClassName="nav-current">
-                    Getting Started
-                  </Link>
+                  <Link to="/tags/renowacja/" activeClassName="nav-current">Renowacja kościoła</Link>
+                </li>
+                <li role="menuitem">
+                  <Link to="/tags/aktualnosci/" activeClassName="nav-current">Aktualności</Link>
+                </li>
+                <li role="menuitem">
+                  <Link to="/masses" activeClassName="nav-current">Msze Święte</Link>
+                </li>
+                <li role="menuitem">
+                  <Link to="/contact" activeClassName="nav-current">Kontakt</Link>
+                </li>
+                <li role="menuitem">
+                  <Link to="/tags/historia/" activeClassName="nav-current">Historia</Link>
                 </li>
               </ul>
               {isPost && (

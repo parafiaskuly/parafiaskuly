@@ -1,4 +1,5 @@
 import { format } from 'date-fns';
+import { pl } from 'date-fns/locale'
 import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getSrc, getImage } from 'gatsby-plugin-image';
 import * as _ from 'lodash';
@@ -50,7 +51,7 @@ type PageTemplateProps = {
       };
       fields: {
         readingTime: {
-          text: string;
+          minutes: string;
         };
       };
     };
@@ -81,7 +82,7 @@ export type PageContext = {
   fields: {
     slug: string;
     readingTime: {
-      text: string;
+      minutes: string;
     };
   };
   frontmatter: {
@@ -108,7 +109,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLL yyyy');
+  const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
 
   return (
     <IndexLayout className="post-template">
@@ -117,11 +118,13 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
         <title>{post.frontmatter.title}</title>
 
         <meta name="description" content={post.frontmatter.excerpt || post.excerpt} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
         <meta property="og:description" content={post.frontmatter.excerpt || post.excerpt} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
+        <meta property="og:locale" content={config.locale} />
         {post.frontmatter.image && (
           <meta
             property="og:image"
@@ -214,7 +217,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
                           {displayDatetime}
                         </time>
                         <span className="byline-reading-time">
-                          <span className="bull">&bull;</span>{post.fields.readingTime.text}
+                          <span className="bull">&bull;</span>{Math.max(1, Math.round(post.fields.readingTime.minutes))} min czytania
                         </span>
                       </div>
                     </section>
@@ -449,7 +452,7 @@ export const query = graphql`query ($slug: String, $primaryTag: String) {
     excerpt
     fields {
       readingTime {
-        text
+          minutes
       }
     }
     frontmatter {
@@ -458,6 +461,11 @@ export const query = graphql`query ($slug: String, $primaryTag: String) {
       date
       tags
       excerpt
+      fields {
+        readingTime {
+          minutes
+        }
+      }
       image {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)
@@ -490,7 +498,7 @@ export const query = graphql`query ($slug: String, $primaryTag: String) {
         }
         fields {
           readingTime {
-            text
+            minutes
           }
           slug
         }
