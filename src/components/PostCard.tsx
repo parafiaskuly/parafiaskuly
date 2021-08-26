@@ -1,4 +1,5 @@
 import { format } from 'date-fns';
+import { pl } from 'date-fns/locale'
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import _ from 'lodash';
@@ -22,7 +23,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLL yyyy');
+  const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
 
   return (
     <article
@@ -75,7 +76,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             </span>
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
-              <span className="bull">&bull;</span> {post.fields.readingTime.text}
+              <span className="bull">&bull;</span> {Math.max(1, Math.round(post.fields.readingTime.minutes))} min czytania
             </span>
           </PostCardBylineContent>
         </PostCardMeta>

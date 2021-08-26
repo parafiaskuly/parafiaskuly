@@ -68,11 +68,13 @@ const Tags = ({ pageContext, data, location }: TagTemplateProps) => {
           {tag} - {config.title}
         </title>
         <meta name="description" content={tagData?.node ? tagData.node.description : ''} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${tag} - ${config.title}`} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        <meta property="og:locale" content={config.locale} />
+        {config.facebook && <meta property="article:publisher" content="{config.facebook}" />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${tag} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />
@@ -105,9 +107,9 @@ const Tags = ({ pageContext, data, location }: TagTemplateProps) => {
                   tagData.node.description
                 ) : (
                   <>
-                    A collection of {totalCount > 1 && `${totalCount} posts`}
-                    {totalCount === 1 && '1 post'}
-                    {totalCount === 0 && 'No posts'}
+                    Kolekcja {totalCount > 1 && `${totalCount} postów`}
+                    {totalCount === 1 && 'z 1 postem'}
+                    {totalCount === 0 && 'Brak postów'}
                   </>
                 )}
               </SiteDescription>
@@ -185,7 +187,7 @@ export const pageQuery = graphql`
           }
           fields {
             readingTime {
-              text
+              minutes
             }
             layout
             slug

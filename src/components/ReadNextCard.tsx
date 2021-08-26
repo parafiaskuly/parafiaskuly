@@ -6,6 +6,7 @@ import * as _ from 'lodash';
 
 import { colors } from '../styles/colors';
 import { format } from 'date-fns';
+import { pl } from 'date-fns/locale'
 
 export interface ReadNextProps {
   tags: string[];
@@ -35,7 +36,7 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
     <ReadNextCardArticle className="read-next-card">
       <header className="read-next-card-header">
         <ReadNextCardHeaderTitle>
-          <span>More in</span>{' '}
+          <span>Więcej w</span>{' '}
           <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>{props.tags[0]}</Link>
         </ReadNextCardHeaderTitle>
       </header>
@@ -46,7 +47,7 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
             // 2018-08-20
             const datetime = format(date, 'yyyy-MM-dd');
             // 20 AUG 2018
-            const displayDatetime = format(date, 'dd LLL yyyy');
+            const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
             return (
               <li key={n.node.frontmatter.title}>
                 <h4>
@@ -55,7 +56,7 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
                 <ReadNextCardMeta className="read-next-card-meta">
                   <p>
                     <time dateTime={datetime}>{displayDatetime}</time> - {n.node.timeToRead} min
-                    read
+                    czytania
                   </p>
                 </ReadNextCardMeta>
               </li>
@@ -65,9 +66,9 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
       </ReadNextCardContent>
       <ReadNextCardFooter className="read-next-card-footer">
         <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>
-          {props.relatedPosts.totalCount > 1 && `See all ${props.relatedPosts.totalCount} posts`}
+          {props.relatedPosts.totalCount > 1 && `Zobacz wszystkie ${props.relatedPosts.totalCount} posty`}
           {props.relatedPosts.totalCount === 1 && '1 post'}
-          {props.relatedPosts.totalCount === 0 && 'No posts'} →
+          {props.relatedPosts.totalCount === 0 && 'Brak postów'} →
         </Link>
       </ReadNextCardFooter>
     </ReadNextCardArticle>

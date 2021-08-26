@@ -20,7 +20,6 @@ import {
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
-  SiteTitle,
   SiteHeaderStyles,
 } from '../styles/shared';
 import config from '../website-config';
@@ -59,11 +58,13 @@ const IndexPage: React.FC<IndexProps> = props => {
         <html lang={config.lang} />
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
+        <meta property="og:locale" content={config.locale} />
         <meta
           property="og:image"
           content={`${config.siteUrl}${props.data.header.childImageSharp.fixed.src}`}
@@ -100,17 +101,6 @@ const IndexPage: React.FC<IndexProps> = props => {
           <div css={inner}>
             <SiteNav isHome />
             <SiteHeaderContent className="site-header-content">
-              <SiteTitle className="site-title">
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '55px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
-              </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
           </div>
@@ -158,7 +148,7 @@ export const pageQuery = graphql`
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fixed(width: 2000, quality: 100) {
+        fixed(width: 1000, quality: 100) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -201,7 +191,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             readingTime {
-              text
+              minutes
             }
             layout
             slug

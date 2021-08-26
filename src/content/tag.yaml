@@ -1,3 +1,12 @@
-- id: speeches
-  description: Some of the greatest words ever spoken.
-  image: img/speeches-cover.jpg
+- id: Aktualności
+  description: Aktualności naszej parafii
+  image: img/james-coleman-dSbfYNeDeiM-unsplash-resized.jpg
+- id: Ogłoszenia
+  description: Ogłoszenia parafialne
+  image: img/james-coleman-QHRZv6PIW4s-unsplash.jpg
+- id: Renowacja
+  description: Informacje o renowacji kościoła
+  image: img/skuly-lowicz.jpg
+- id: Historia
+  description: Informacje o historii kościoła
+  image: img/skuly-lowicz.jpg

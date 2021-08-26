@@ -1,4 +1,5 @@
 import { format } from 'date-fns';
+import { pl } from 'date-fns/locale'
 import { graphql, Link } from 'gatsby';
 import Img, { FluidObject } from 'gatsby-image';
 import * as _ from 'lodash';
@@ -58,7 +59,7 @@ interface PageTemplateProps {
       };
       fields: {
         readingTime: {
-          text: string;
+          minutes: string;
         };
       };
     };
@@ -89,7 +90,7 @@ export interface PageContext {
   fields: {
     slug: string;
     readingTime: {
-      text: string;
+      minutes: string;
     };
   };
   frontmatter: {
@@ -120,7 +121,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLL yyyy');
+  const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
 
   return (
     <IndexLayout className="post-template">
@@ -129,11 +130,13 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
         <title>{post.frontmatter.title}</title>
 
         <meta name="description" content={post.frontmatter.excerpt || post.excerpt} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
         <meta property="og:description" content={post.frontmatter.excerpt || post.excerpt} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
+        <meta property="og:locale" content={config.locale} />
         {post.frontmatter.image?.childImageSharp && (
           <meta
             property="og:image"
@@ -218,7 +221,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                           {displayDatetime}
                         </time>
                         <span className="byline-reading-time">
-                          <span className="bull">&bull;</span>{post.fields.readingTime.text}
+                          <span className="bull">&bull;</span>{Math.max(1, Math.round(post.fields.readingTime.minutes))} min czytania
                         </span>
                       </div>
                     </section>
@@ -457,7 +460,7 @@ export const query = graphql`
       excerpt
       fields {
         readingTime {
-          text
+          minutes
         }
       }
       frontmatter {
@@ -504,7 +507,7 @@ export const query = graphql`
           }
           fields {
             readingTime {
-              text
+              minutes
             }
             slug
           }
