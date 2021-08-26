@@ -40,9 +40,9 @@ function NotFoundPage(props: NotFoundTemplateProps) {
           <div css={[inner]}>
             <section style={{ textAlign: 'center' }}>
               <ErrorCode>404</ErrorCode>
-              <ErrorDescription>Page not found</ErrorDescription>
+              <ErrorDescription>Strony nie odnaleziono</ErrorDescription>
               <Link css={ErrorLink} to="/">
-                Go to the front page →
+                Idź do strony głównej →
               </Link>
             </section>
 
@@ -87,7 +87,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             readingTime {
-              text
+              minutes
             }
             layout
             slug

@@ -81,12 +81,14 @@ function Author({ data, location }: AuthorTemplateProps) {
           {author.name} - {config.title}
         </title>
         <meta name="description" content={author.bio} />
+        <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.name} - ${config.title}`} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
-        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-        <meta property="article:author" content="https://www.facebook.com/ghost" />
+        <meta property="og:locale" content={config.locale} />
+        <meta property="article:publisher" content="Parafia Skuły" />
+        <meta property="article:author" content="${author.id}" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.name} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />
@@ -138,39 +140,6 @@ function Author({ data, location }: AuthorTemplateProps) {
                       {totalCount === 1 && '1 post'}
                       {totalCount === 0 && 'No posts'}
                     </div>
-                    {author.website && (
-                      <AuthorSocialLink className="author-social-link">
-                        <AuthorSocialLinkAnchor
-                          href={author.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Website
-                        </AuthorSocialLinkAnchor>
-                      </AuthorSocialLink>
-                    )}
-                    {author.twitter && (
-                      <AuthorSocialLink className="author-social-link">
-                        <AuthorSocialLinkAnchor
-                          href={`https://twitter.com/${author.twitter}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Twitter
-                        </AuthorSocialLinkAnchor>
-                      </AuthorSocialLink>
-                    )}
-                    {author.facebook && (
-                      <AuthorSocialLink className="author-social-link">
-                        <AuthorSocialLinkAnchor
-                          href={`https://www.facebook.com/${author.facebook}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Facebook
-                        </AuthorSocialLinkAnchor>
-                      </AuthorSocialLink>
-                    )}
                   </div>
                 </AuthHeaderContent>
               </SiteHeaderContent>
@@ -241,7 +210,7 @@ export const pageQuery = graphql`
           }
           fields {
             readingTime {
-              text
+              minutes
             }
             layout
             slug

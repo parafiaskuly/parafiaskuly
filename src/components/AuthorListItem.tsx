@@ -63,7 +63,7 @@ export function AuthorListItem(props: AuthorListItemProps) {
               <h2>{props.author.name}</h2>
               <p>{props.author.bio}</p>
               <p>
-                <Link to={`/author/${_.kebabCase(props.author.name)}/`}>More posts</Link> by{' '}
+                <Link to={`/author/${_.kebabCase(props.author.name)}/`}>Więcej postów</Link> utworzonych przez{' '}
                 {props.author.name}.
               </p>
             </div>

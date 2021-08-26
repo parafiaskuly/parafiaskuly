@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'Using The Ghost Editor'
-author: [Ghost]
+author: [Proboszcz]
 tags: ['Getting Started']
-image: img/writing.jpg
+image: img/james-coleman-unsplash.jpg
 date: '2015-02-02T23:46:37.121Z'
-draft: false
+draft: true
 ---
 
 Ghost uses a language called **Markdown** to format text.
@@ -33,7 +33,7 @@ Images in Markdown look just the same as links, except they're prefixed with an 
 
 `![Image description](/path/to/image.jpg)`
 
-![Computer](img/computer.jpg)
+![Computer](img/grant-whitty-nbSTmhtg7p0-unsplash.jpg)
 
 Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.
 

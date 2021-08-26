@@ -22,9 +22,7 @@ export function SiteNavLogo() {
 `}
       render={(data: SiteNavLogoProps) => (
         <Link className="site-nav-logo" css={SiteNavLogoStyles} to="/">
-          {data.logo ? (
-            <img src={getSrc(data.logo)} alt={config.title} />
-          ) : (
+          {(
             config.title
           )}
         </Link>
