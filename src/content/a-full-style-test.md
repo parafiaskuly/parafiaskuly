@@ -3,7 +3,7 @@ layout: post
 title: A Full and Comprehensive Style Test
 image: img/james-coleman-unsplash.jpg
 author: [Proboszcz]
-date: 2018-09-30T07:03:47.149Z
+date: 2021-09-30T07:03:47.149Z
 draft: true
 tags:
   - Tests
