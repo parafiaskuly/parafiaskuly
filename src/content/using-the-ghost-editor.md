@@ -4,7 +4,7 @@ title: 'Using The Ghost Editor'
 author: [Proboszcz]
 tags: ['Getting Started']
 image: img/james-coleman-unsplash.jpg
-date: '2015-02-02T23:46:37.121Z'
+date: '2022-02-02T23:46:37.121Z'
 draft: true
 ---
 
