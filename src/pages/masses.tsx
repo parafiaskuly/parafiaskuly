@@ -75,13 +75,14 @@ const Masses: React.FC = () => (
             </PostFullHeader>
             <PostFullContent className="post-full-content">
               <div className="post-content">
+                majowka i nabożeństow czerwcowe po mszy wieczornej
                 <h5>Adwent</h5>
                 <p>
                   <strong>Roraty (środy i soboty):</strong> 07:15
                 </p>
                 <h5>Wielki Post</h5>
                 <p>
-                  <strong>Droga Krzyżowa</strong> po Mszy św. wieczornej
+                  <strong>Droga Krzyżowa</strong> pół godziny przed Mszą św. wieczorną
                 </p>
               </div>
             </PostFullContent>

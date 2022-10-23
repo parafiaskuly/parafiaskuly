@@ -64,7 +64,9 @@ const Contact: React.FC = () => (
                 </p>
                 <h6>Kancelaria</h6>
                 <p>
-                  <strong>Wtorek:</strong> 17:00 lub po uzgodnieniu telefonicznym<br/>
+                  <strong>Poniedziałek:</strong> 8:00 - 10:00<br/>
+                  <strong>Środa:</strong> 8:00 - 10:00<br/>
+                  <strong>Sobota:</strong> 16:00 - 18:00<br/>
                   <strong>telefon:</strong> <a href="tel:+48 46 857 98 26">+48 46 857 98 26</a>
                 </p>
                 <h6>Proboszcz</h6>
