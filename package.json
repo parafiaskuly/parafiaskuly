@@ -10,7 +10,7 @@
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
-    "publish": "gatsby build --prefix-paths && gh-pages -d public",
+    "publish": "gatsby build && gh-pages -d public",
     "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
