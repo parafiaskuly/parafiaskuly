@@ -461,11 +461,6 @@ export const query = graphql`query ($slug: String, $primaryTag: String) {
       date
       tags
       excerpt
-      fields {
-        readingTime {
-          minutes
-        }
-      }
       image {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH)

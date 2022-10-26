@@ -22,6 +22,8 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
       - name: Build & Publish page
-        run: npm run publish -- -u "github-actions-bot <support+actions@github.com>"
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run publish -- -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

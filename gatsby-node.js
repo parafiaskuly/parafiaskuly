@@ -86,7 +86,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
         fields {
           readingTime {
-                minutes
+            minutes
           }
           layout
           slug
