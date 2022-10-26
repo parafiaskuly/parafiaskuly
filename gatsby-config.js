@@ -7,6 +7,7 @@ module.exports = {
     description: 'Strona Parafii Skuły w oparciu o Casper for Gatsb',
     siteUrl: 'https://parafiaskuly.pl', // full path to blog - no ending slash
   },
+  pathPrefix: "parafiaskuly",
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml.name',
   },
