@@ -1,0 +1,51 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:base",
+    ":semanticCommits"
+  ],
+  ignoreTests: false,
+  ignoreUnstable: true,
+  labels: [
+    "dependencies",
+  ],
+  lockFileMaintenance: {
+    enabled: true,
+    extends: [
+      "schedule:weekly"
+    ],
+    automerge: true,
+    automergeStrategy: "squash",
+    automergeType: "pr",
+  },
+  npm: {
+    enabled: true,
+    stabilityDays: 3
+  },
+  packageRules: [
+    {
+      automerge: true,
+      automergeStrategy: "squash",
+      automergeType: "pr",
+      matchUpdateTypes: [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+    },
+    {
+      automerge: true,
+      automergeStrategy: "squash",
+      automergeType: "pr",
+      matchDepTypes: [
+        "devDependencies"
+      ],
+    }
+  ],
+  platformAutomerge: true,
+  rangeStrategy: "pin",
+  vulnerabilityAlerts: {
+    "enabled": true
+  }
+}
