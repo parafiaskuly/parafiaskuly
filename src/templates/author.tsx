@@ -88,7 +88,7 @@ function Author({ data, location }: AuthorTemplateProps) {
         <meta property="og:url" content={config.siteUrl + location.pathname} />
         <meta property="og:locale" content={config.locale} />
         <meta property="article:publisher" content="Parafia Skuły" />
-        <meta property="article:author" content="${author.id}" />
+        <meta property="article:author" content={author.name} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.name} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />

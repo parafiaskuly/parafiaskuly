@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import { pl } from 'date-fns/locale'
+import { pl } from 'date-fns/locale';
 import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import _ from 'lodash';
@@ -24,7 +24,7 @@ export function PostCard({ post, isLarge = false }: PostCardProps) {
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
+  const displayDatetime = format(date, 'dd LLLL yyyy', { locale: pl });
 
   return (
     <article

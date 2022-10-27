@@ -6,7 +6,7 @@ import * as _ from 'lodash';
 
 import { colors } from '../styles/colors';
 import { format } from 'date-fns';
-import { pl } from 'date-fns/locale'
+import { pl } from 'date-fns/locale';
 
 export type ReadNextProps = {
   tags: string[];
@@ -49,7 +49,7 @@ export function ReadNextCard(props: ReadNextProps) {
             // 2018-08-20
             const datetime = format(date, 'yyyy-MM-dd');
             // 20 AUG 2018
-            const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
+            const displayDatetime = format(date, 'dd LLLL yyyy', { locale: pl });
             return (
               <li key={n.node.frontmatter.title}>
                 <h4>

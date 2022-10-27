@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import { pl } from 'date-fns/locale'
+import { pl } from 'date-fns/locale';
 import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getSrc, getImage } from 'gatsby-plugin-image';
 import * as _ from 'lodash';
@@ -109,7 +109,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLLL yyyy', {locale: pl});
+  const displayDatetime = format(date, 'dd LLLL yyyy', { locale: pl });
 
   return (
     <IndexLayout className="post-template">

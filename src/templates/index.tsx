@@ -99,8 +99,8 @@ function IndexPage(props: IndexProps) {
               {props.data.allMarkdownRemark.edges.map(
                 (post, index) =>
                   // filter out drafts in production
-                  (post.node.frontmatter.draft !== true ||
-                    process.env.NODE_ENV !== 'production') && (
+                  (post.node.frontmatter.draft !== true
+                    || process.env.NODE_ENV !== 'production') && (
                     <PostCard key={post.node.fields.slug} post={post.node} isLarge={index === 0} />
                   ),
               )}
