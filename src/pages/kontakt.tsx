@@ -34,7 +34,7 @@ const PageTemplate = css`
   }
 `;
 
-const Contact: React.FC = () => (
+const Kontakt: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Kontakt</title>
@@ -87,4 +87,4 @@ const Contact: React.FC = () => (
   </IndexLayout>
 );
 
-export default Contact;
+export default Kontakt;

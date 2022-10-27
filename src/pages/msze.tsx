@@ -34,7 +34,7 @@ const PageTemplate = css`
   }
 `;
 
-const Masses: React.FC = () => (
+const Msze: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Msze Święte</title>
@@ -94,4 +94,4 @@ const Masses: React.FC = () => (
   </IndexLayout>
 );
 
-export default Masses;
+export default Msze;

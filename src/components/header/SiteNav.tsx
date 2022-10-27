@@ -102,10 +102,10 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   <Link to="/tags/aktualnosci/" activeClassName="nav-current">Aktualności</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/masses" activeClassName="nav-current">Msze Święte</Link>
+                  <Link to="/msze" activeClassName="nav-current">Msze Święte</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/contact" activeClassName="nav-current">Kontakt</Link>
+                  <Link to="/kontakt" activeClassName="nav-current">Kontakt</Link>
                 </li>
                 <li role="menuitem">
                   <Link to="/tags/historia/" activeClassName="nav-current">Historia</Link>
