@@ -78,7 +78,7 @@
     "not dead"
   ],
   "engines": {
-    "node": ">=16.15.0"
+    "node": "19.0.0"
   },
   "volta": {
     "node": "16.15.0"
