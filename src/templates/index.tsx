@@ -99,8 +99,8 @@ function IndexPage(props: IndexProps) {
               {props.data.allMarkdownRemark.edges.map(
                 (post, index) =>
                   // filter out drafts in production
-                  (post.node.frontmatter.draft !== true
-                    || process.env.NODE_ENV !== 'production') && (
+                  (post.node.frontmatter.draft !== true ||
+                    process.env.NODE_ENV !== 'production') && (
                     <PostCard key={post.node.fields.slug} post={post.node} isLarge={index === 0} />
                   ),
               )}
@@ -129,11 +129,11 @@ export const pageQuery = graphql`
     }
     header: file(relativePath: { eq: "img/blog-cover.png" }) {
       childImageSharp {
-        gatsbyImageData(width: 2000, quality: 100, layout: FIXED)
+        gatsbyImageData(width: 2000, quality: 100, layout: FIXED, formats: [AUTO, WEBP, AVIF])
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: ASC } }
       filter: { frontmatter: { draft: { ne: true } } }
       limit: $limit
       skip: $skip
@@ -148,7 +148,7 @@ export const pageQuery = graphql`
             excerpt
             image {
               childImageSharp {
-                gatsbyImageData(layout: FULL_WIDTH)
+                gatsbyImageData(layout: FULL_WIDTH, formats: [AUTO, WEBP, AVIF])
               }
             }
             author {
