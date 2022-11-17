@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { lighten } from 'polished';
 import styled from '@emotion/styled';
-import * as _ from 'lodash';
+import { kebabCase } from 'lodash-es';
 
 import { colors } from '../styles/colors';
 import { format } from 'date-fns';
@@ -39,7 +39,7 @@ export function ReadNextCard(props: ReadNextProps) {
       <header className="read-next-card-header">
         <ReadNextCardHeaderTitle>
           <span>Więcej w</span>{' '}
-          <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>{props.tags[0]}</Link>
+          <Link to={`/tags/${kebabCase(props.tags[0])}/`}>{props.tags[0]}</Link>
         </ReadNextCardHeaderTitle>
       </header>
       <ReadNextCardContent className="read-next-card-content">
@@ -67,7 +67,7 @@ export function ReadNextCard(props: ReadNextProps) {
         </ul>
       </ReadNextCardContent>
       <ReadNextCardFooter className="read-next-card-footer">
-        <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>
+        <Link to={`/tags/${kebabCase(props.tags[0])}/`}>
           {props.relatedPosts.totalCount > 1 && `Zobacz wszystkie ${props.relatedPosts.totalCount} posty`}
           {props.relatedPosts.totalCount === 1 && '1 post'}
           {props.relatedPosts.totalCount === 0 && 'Brak postów'} →
