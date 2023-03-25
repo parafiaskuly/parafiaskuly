@@ -9,7 +9,7 @@ draft: false
 excerpt: 
 ---
 
-1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Kukawskim** i **Taras**. Na następną niedziele zapraszam do sprzątania rodziców dzieci **Leny Adamczyk** i **Zofii Nowosielskiej**. Sprzątanie w sobotę od godz. 9.00.
+1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Kukawskim** i **Taras**. Na następną niedzielę zapraszam do sprzątania rodziców dzieci **Leny Adamczyk** i **Zofii Nowosielskiej**. Sprzątanie w sobotę od godz. 9.00.
 2. W **Wielkim Poście** – przeżywamy nabożeństwa **Drogi Krzyżowej** w **piątki o godz. 17.00** i zaraz później Msza św. W niedzielę przez czas Wielkiego Postu po mszach św. raz po 9.00 raz po 12.00 na przemiennie nabożeństwo **Gorzkich żali**.
 3. Dziś po tej mszy św. o godz. 9.00 spotkanie z rodzicami i dziećmi idącymi w tym roku do I komunii św. Ale to spotkanie dotyczy uczniów ze szkoły podstawowej w Józefinie.
 4. Rekolekcje parafialne będą w dniach 24-26 marca 2023 r. tj. piątek, sobota, niedziela – msze św. w te dni o 9.00 12.00 i 18.00. W piątek o 17.00 **Droga krzyżowa** i zaraz po msza św.

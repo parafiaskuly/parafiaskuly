@@ -9,7 +9,7 @@ draft: false
 excerpt: 
 ---
 
-1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Adamczyk** i **Nowosielskim**. Na następną niedziele zapraszam do sprzątania rodziców dzieci **Oliwii Wildangier** i **Kacpra Siemiątkowskiego**. Sprzątanie w sobotę, ale po ostatniej Mszy św. z racji rekolekcji w naszej parafii.
+1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Adamczyk** i **Nowosielskim**. Na następną niedzielę zapraszam do sprzątania rodziców dzieci **Oliwii Wildangier** i **Kacpra Siemiątkowskiego**. Sprzątanie w sobotę, ale po ostatniej Mszy św. z racji rekolekcji w naszej parafii.
 2. W **Wielkim Poście** – przeżywamy nabożeństwa **Drogi Krzyżowej** w **piątki o godz. 17.00** i zaraz później Msza św. W niedzielę przez czas Wielkiego Postu po mszach św. raz po 9.00 raz po 12.00 na przemiennie nabożeństwo **Gorzkich żali**.
 3. Rekolekcje parafialne będą w dniach 24-26 marca 2023 r. tj. piątek, sobota, niedziela – msze św. w te dni o 9.00 12.00 i 18.00. W piątek o 17.00 **Droga krzyżowa** i zaraz po msza św. Są w piątek na pierwszy dzień rekolekcji dwie wolne intencje mszalne. Dla
    wiadomości w ogóle jest dużo wolnych intencji w dni powszednie.

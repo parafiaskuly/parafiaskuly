@@ -9,7 +9,7 @@ draft: false
 excerpt: 
 ---
 
-1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Cisłowskim** i **Siekierskim**. Na następną niedziele zapraszam do sprzątania rodziców dzieci **Marii Kukawskiej** i **Klaudii Taras**. Sprzątanie w sobotę od godz. 9.00.
+1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę rodzicom dzieci komunijnych państwu **Cisłowskim** i **Siekierskim**. Na następną niedzielę zapraszam do sprzątania rodziców dzieci **Marii Kukawskiej** i **Klaudii Taras**. Sprzątanie w sobotę od godz. 9.00.
 2. W **Wielkim Poście** – przeżywamy nabożeństwa **Drogi Krzyżowej** w **piątki o godz. 17.00** i zaraz później Msza św. W niedzielę przez czas Wielkiego Postu po mszach św. raz po 9.00 raz po 12.00 na przemiennie nabożeństwo **Gorzkich żali**.
 3. Dziś po tej mszy św. o godz. 9.00 spotkanie z młodzieżą przygotowującą się do sakramentu bierzmowania.
 4. W przyszłą niedzielę po mszy św. o godz. 9.00 bardzo proszę, aby na chwilę pozostali w kościele rodzice dzieci komunijnych ze szkoły podstawowej w Józefinie.
