@@ -80,6 +80,10 @@ function Kontakt() {
                   <p>
                     97 9291 0001 0210 5329 2000 0010
                   </p>
+                  <h6>1,5% podatku na remont kościoła</h6>
+                  <p>
+                    Wypełniając PIT–28, PIT–36, PIT–36L, PIT–37, PIT–38 lub PIT–OP można przekazać 1,5% podatku na remont kościoła. Aby to zrobić w rubryce <em>Wniosek o przekazanie 1,5% podatku należnego na rzecz organizacji pożytku publicznego OPP</em> należy podać nr KRS <strong>0000252350</strong> należący do Caritas Diecezji Łowickiej. <em>Ważne jest, żeby jako cel szczegółowy wpisać <strong>Na remont kościoła Parafii Rzymskokatolickiej pod wezwaniem św. Apostołów Piotra i Pawła w Skułach</strong></em>.
+                  </p>
                 </div>
               </PostFullContent>
             </article>
