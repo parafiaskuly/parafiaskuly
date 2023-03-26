@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'Parafia Skuły',
-    description: 'Strona Parafii Skuły w oparciu o Casper for Gatsb',
+    description: 'Strona Parafii Skuły w oparciu o Casper for Gatsby',
     siteUrl: 'https://parafiaskuly.pl', // full path to blog - no ending slash
   },
   mapping: {
