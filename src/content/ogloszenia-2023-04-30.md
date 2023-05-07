@@ -25,7 +25,7 @@ excerpt:
 6. W tym tygodniu przypada I piątek miesiąca maja od godz. 9.00 odwiedziny chorych
    w domu z posługa sakramentalną i od godz. 17.00 — spowiedź I-piątkowa w kościele
    i o godzinie 18.00 Msz św. za naszych zmarłych polecanych w wypominkach.
-7. Msza św. zbiorowa w tym miesiącu będzie w niedziele **21.05.2023 r.** o godz. 10.30
+7. Msza św. zbiorowa w tym miesiącu będzie w niedzielę **21.05.2023 r.** o godz. 10.30
    tydzień wcześniej, a to dlatego iż w ostatnią niedzielę mamy uroczystość I komunii
    św. w naszej parafii.
 8. Trwają prace na terenie przy kościelnym, jak widać — termin zakończenia tych prac to został
@@ -40,9 +40,7 @@ excerpt:
   wpisać _Na remont kościoła Parafii Rzymskokatolickiej pod wezwaniem św. Apostołów Piotra i Pawła w
   Skułach_**.
 - Konto parafialne: Bank Spółdzielczy w Białej Rawskiej nr **97 9291 0001 0210 5329 2000 0010**.
-  j
-
-7. Do sakramentu małżeństwa przygotowują się następujące osoby:
+9. Do sakramentu małżeństwa przygotowują się następujące osoby:
 
 - **Michał Andrychowicz** — kawaler z parafii tutejszej i **Patrycja Jagoda Jankwoska** – panna
   z parafii św. Józefa i św. Franciszka z Asyżu w Tłuszczu. Ktokolwiek wiedział by o ewentualnych
