@@ -42,6 +42,8 @@ excerpt:
 - Konto parafialne: Bank Spółdzielczy w Białej Rawskiej nr **97 9291 0001 0210 5329 2000 0010**.
 9. Do sakramentu małżeństwa przygotowują się następujące osoby:
 
-- **Michał Andrychowicz** — kawaler z parafii tutejszej i **Patrycja Jagoda Jankwoska** – panna
-  z parafii św. Józefa i św. Franciszka z Asyżu w Tłuszczu. Ktokolwiek wiedział by o ewentualnych
-  przeszkodach między nowożeńcami zobowiązany jest zgłosić do kancelarii parafialnej.
+   - **Michał Andrychowicz** — kawaler z parafii tutejszej i **Patrycja Jagoda Jankwoska** – panna
+     z parafii św. Józefa i św. Franciszka z Asyżu w Tłuszczu.
+
+   Ktokolwiek by wiedział o ewentualnych przeszkodach między narzeczonymi zobowiązany jest zgłosić to
+   do kancelarii parafialnej.

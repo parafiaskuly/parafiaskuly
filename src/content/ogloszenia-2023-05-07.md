@@ -30,6 +30,7 @@ excerpt:
 - Konto parafialne: Bank Spółdzielczy w Białej Rawskiej nr **97 9291 0001 0210 5329 2000 0010**.
 8. Do sakramentu małżeństwa przygotowują się następujące osoby:
 
-   - **Mateusz Domański** — kawaler z parafii tutejszej i **Patrycja Żukowska** — panna z parafii Matki Bożej Nieustającej Pomocy w  Grodzisku Mazowieckim.
+   - **Mateusz Domański** — kawaler z parafii tutejszej i **Patrycja Żukowska** — panna z parafii Matki Bożej Nieustającej Pomocy w Grodzisku Mazowieckim.
 
-   Ktokolwiek wiedział by o ewentualnych przeszkodach między narzeczonymi zobowiązany jest zgłosić do kancelarii parafialnej.
+   Ktokolwiek by wiedział o ewentualnych przeszkodach między narzeczonymi zobowiązany jest zgłosić to
+   do kancelarii parafialnej.
