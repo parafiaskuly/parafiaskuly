@@ -1,4 +1,5 @@
 import { Link } from 'gatsby';
+import { StaticImage } from "gatsby-plugin-image";
 import { setLightness } from 'polished';
 import React from 'react';
 import styled from '@emotion/styled';
@@ -36,9 +37,26 @@ export function Footer() {
           <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
+      <Link to="/dofinansowanie" css={EuLogoCss}>
+        <StaticImage
+          src="../content/img/eu-logo.jpg"
+          alt="Fixed Image"
+          placeholder="blurred"
+          layout="fixed"
+          width={80}
+        />
+      </Link>
     </footer>
   );
 }
+
+const EuLogoCss = css`
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 9999;
+`;
 
 const SiteFooter = css`
   position: relative;
