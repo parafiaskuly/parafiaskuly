@@ -4,7 +4,7 @@ title: XI Niedziela Zwykła — 18.06.2023 r.
 author: [ Proboszcz ]
 tags: [ Ogłoszenia ]
 image: img/IMG_0422.JPG
-date: 2023-06-18T06:00:00.000Z
+date: 2023-06-15T06:00:00.000Z
 draft: false
 excerpt: 
 ---
