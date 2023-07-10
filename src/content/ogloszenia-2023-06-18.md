@@ -1,4 +1,4 @@
-XI Niedziela Zwykła
+---
 layout: post
 title: XI Niedziela Zwykła — 18.06.2023 r.
 author: [ Proboszcz ]

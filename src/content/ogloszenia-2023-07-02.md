@@ -1,14 +1,13 @@
-XIII Niedziela Zwykła
+---
 layout: post
-title: XIII Niedziela Zwykła — 02.07.2023 r.
+itle: XIII Niedziela Zwykła — 02.07.2023 r.
 author: [ Proboszcz ]
 tags: [ Ogłoszenia ]
 image: img/DSC_0286.JPG
 date: 2023-07-02T06:00:00.000Z
 draft: false
 excerpt: 
----XIII Niedziela Zwykła 02.07.2023r 
-
+---
 
 1. Dziękuje za przygotowanie kościoła oraz posprzątanie terenu tzn pozamiatanie kostki  na dzisiejszą i niedzielę Mieszkańcom Bartoszówki ul. Mszczonowska i przyległe do niej. I za ofiary z tej ulicy 80zł  Na   następną niedzielę zapraszam do sprzątania mieszkańców Bartoszówki ul. Strażacka i przyległe do niej - sprzątanie w sobotę od godziny 9.00
  
