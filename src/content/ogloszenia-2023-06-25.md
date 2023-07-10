@@ -1,4 +1,4 @@
-XII Niedziela Zwykła
+---
 layout: post
 title: XII Niedziela Zwykła — 25.06.2023 r.
 author: [ Proboszcz ]
@@ -7,8 +7,7 @@ image: img/DSC_0286.JPG
 date: 2023-06-25T06:00:00.000Z
 draft: false
 excerpt: 
----XII Niedziela Zwykła 25.06.2023r 
-
+---
 
 1. Dziękuje za przygotowanie kościoła na dzisiejszą i niedzielę Mieszkańcom Bartoszówki ul. Pałacowa i przyległe do niej. Na   następną niedzielę zapraszam do sprzątania mieszkańców Bartoszówki ul. Mszczonowska i przyległe do niej - sprzątanie w sobotę od godziny 9.00
  

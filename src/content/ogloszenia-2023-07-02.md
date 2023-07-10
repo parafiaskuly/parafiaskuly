@@ -1,6 +1,6 @@
 ---
 layout: post
-itle: XIII Niedziela Zwykła — 02.07.2023 r.
+title: XIII Niedziela Zwykła — 02.07.2023 r.
 author: [ Proboszcz ]
 tags: [ Ogłoszenia ]
 image: img/DSC_0286.JPG
