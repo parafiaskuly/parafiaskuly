@@ -78,7 +78,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "19.1.0"
+    "node": "19.9.0"
   },
   "volta": {
     "node": "18.16.1"
