@@ -1,10 +1,10 @@
 XII Niedziela Zwykła
 layout: post
-title: XII Niedziela Zwykła — 125.06.2023 r.
+title: XII Niedziela Zwykła — 25.06.2023 r.
 author: [ Proboszcz ]
 tags: [ Ogłoszenia ]
 image: img/DSC_0286.JPG
-date: 2023-06-258T06:00:00.000Z
+date: 2023-06-25T06:00:00.000Z
 draft: false
 excerpt: 
 ---XII Niedziela Zwykła 25.06.2023r 
