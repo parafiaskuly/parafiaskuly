@@ -20,12 +20,11 @@ excerpt:
    - Dziękuję za wszelką pomoc finansową do tej pory. Proszę o dalsze wsparcie, byśmy mogli rozliczyć tę inwestycję.    
    - Konto parafialne: Bank Spółdzielczy w Białej Rawskiej nr **97 9291 0001 0210 5329 2000 0010**.
 
-6. Do **11.07.2023r** będzie trwała akcja zbierania elektro- śmieci, jeżeli macie w domach popsuty sprzęt AGD i RTV  będzie można go przywieść i złożyć na terenie organistówki - jak co roku- kluczyk do furtki będzie na plebani, najlepiej przywieść to można koło godz. 19.00
+6. Do **11.07.2023r** będzie trwała akcja zbierania elektrośmieci, jeżeli macie w domach popsuty sprzęt AGD i RTV  będzie można go przywieść i złożyć na terenie organistówki - jak co roku. Kluczyk do furtki będzie na plebani, najlepiej przywieść to można koło godz. 19.00
 
 7. Do sakramentu małżeństwa przygotowują się następujące osoby: 
-zapowiedz 1. 
 
-    - Bartłomiej Jan Witkowski -kawaler z parafii Przemienienia Pańskiego w Jeziórce  i  Karolina Rutkowska – panna z parafii tutejszej .  
+    - Bartłomiej Jan Witkowski -kawaler z parafii Przemienienia Pańskiego w Jeziórce i Karolina Rutkowska – panna z parafii tutejszej.  
     - Barłomiej Sitarek – i  Sylwia Kaczmarczyk – oboje z parafii tutejszej
 
-    Ktokolwiek wiedział by o ewentualnych przeszkodach miedzy nowożeńcami zobowiązany jest zgłosić do kancelarii parafialnej.   
+    Ktokolwiek wiedziałby o ewentualnych przeszkodach między nowożeńcami zobowiązany jest zgłosić do kancelarii parafialnej.   
