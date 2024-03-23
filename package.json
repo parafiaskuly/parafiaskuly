@@ -17,7 +17,7 @@
   "dependencies": {
     "@emotion/react": "11.11.4",
     "@emotion/styled": "11.11.0",
-    "cssnano": "6.1.0",
+    "cssnano": "6.1.1",
     "date-fns": "2.30.0",
     "emotion": "11.0.0",
     "emotion-server": "11.0.0",
