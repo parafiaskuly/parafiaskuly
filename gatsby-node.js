@@ -10,9 +10,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // interpreter if not a single content uses it. Therefore, we're putting them
   // through `createNodeField` so that the fields still exist and GraphQL won't
   // trip up. An empty string is still required in replacement to `null`.
-  // eslint-disable-next-line default-case
-  switch (node.internal.type) {
-    case 'MarkdownRemark': {
+
+  if (node.internal.type === 'MarkdownRemark') {
       const { permalink, layout, primaryTag } = node.frontmatter;
       const { relativePath } = getNode(node.parent);
 
@@ -46,7 +45,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         value: readingTime(node.rawMarkdownBody),
       });
     }
-  }
 };
 
 exports.createPages = async ({ graphql, actions }) => {
