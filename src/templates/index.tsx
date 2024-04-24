@@ -26,12 +26,12 @@ import config from '../website-config';
 import type { PageContext } from './post';
 
 export type IndexProps = {
-  children: React.ReactNode;
-  pageContext: {
+  readonly children: React.ReactNode;
+  readonly pageContext: {
     currentPage: number;
     numPages: number;
   };
-  data: {
+  readonly data: {
     logo: any;
     header: any;
     allMarkdownRemark: {

@@ -15,8 +15,8 @@ import { AuthorList } from './AuthorList';
 import config from '../website-config';
 
 export type PostCardProps = {
-  post: PageContext;
-  isLarge?: boolean;
+  readonly post: PageContext;
+  readonly isLarge?: boolean;
 };
 
 export function PostCard({ post, isLarge = false }: PostCardProps) {

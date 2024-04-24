@@ -29,8 +29,8 @@ export type Author = {
 };
 
 type PageTemplateProps = {
-  location: Location;
-  data: {
+  readonly location: Location;
+  readonly data: {
     markdownRemark: {
       html: string;
       htmlAst: any;
@@ -66,7 +66,7 @@ type PageTemplateProps = {
       }>;
     };
   };
-  pageContext: {
+  readonly pageContext: {
     prev: PageContext;
     next: PageContext;
   };
