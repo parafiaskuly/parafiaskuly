@@ -1,3 +1,7 @@
+/* eslint-disable react/jsx-child-element-spacing */
+/* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable react/jsx-indent */
+
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -5,6 +9,7 @@ import { css } from '@emotion/react';
 
 import { Footer } from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
+import { StaticImage } from "gatsby-plugin-image";
 import { PostFullContent } from '../components/PostContent';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
@@ -40,7 +45,9 @@ function StaticContent() {
   return (
     <IndexLayout>
       <Helmet>
-        <title>Dofinansowanie</title>
+        <title>Renowacja kościoła p. w. Świętych Apostołów Piotra i Pawła oraz dzwonnicy w Skułach, jako przykład
+          ochrony dziedzictwa kulturowego na Mazowszu
+        </title>
       </Helmet>
       <Wrapper css={PageTemplate}>
         <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
@@ -54,11 +61,18 @@ function StaticContent() {
           <div css={inner}>
             <article className="post page" css={[PostFull, NoImage]}>
               <PostFullHeader className="post-full-header">
-                <PostFullTitle className="post-full-title">Dofinansowanie</PostFullTitle>
+                <PostFullTitle className="post-full-title">Renowacja kościoła p. w. Świętych Apostołów Piotra i Pawła
+                  oraz dzwonnicy w Skułach, jako przykład ochrony dziedzictwa kulturowego na Mazowszu
+                </PostFullTitle>
               </PostFullHeader>
 
               <PostFullContent className="post-full-content">
                 <div className="post-content">
+                  <StaticImage
+                    src="../content/img/dofinansowanie-logo.jpg"
+                    alt="Dofinansowanie-logo"
+                    placeholder="blurred"
+                    width={1000}/>
                   <h3>Historia</h3>
                   <p>
                     Mamy w Polsce piękny, jeden z nielicznych, drewnianych zabytków, którego historia sięga jeszcze najlepszych czasów
@@ -189,10 +203,60 @@ function StaticContent() {
                       KTÓRA BĘDZIE TRWAŁA DO KOŃCA LIPCA 2023 r. — 665.878,32 zł
                     </li>
                   </ul>
+                  <p>
+                    Na wyżej opisany projekt pn.: <strong>„Renowacja kościoła p. w. Świętych Apostołów Piotra i Pawła
+                    oraz dzwonnicy w Skułach, jako przykład ochrony dziedzictwa kulturowego na Mazowszu”</strong>
+                    &nbsp;Parafia pozyskała dofinansowanie ze środków Europejskiego Funduszu Rozwoju
+                    Regionalnego w ramach Regionalnego Programu Operacyjnego Województwa Mazowieckiego na lata
+                    2014-2020, Oś priorytetowa V — Gospodarka przyjazna środowisku,
+                    Działanie 5.3 — Dziedzictwo kulturowe, Typ projektów - Wzrost regionalnego potencjału
+                    turystycznego poprzez ochronę obiektów zabytkowych.
+                  </p>
                 </div>
+                <StaticImage
+                  src="../content/img/dofinansowanie-logo.jpg"
+                  alt="Dofinansowanie-logo"
+                  placeholder="blurred"
+                  width={1000}/>
               </PostFullContent>
             </article>
           </div>
+
+          <StaticImage
+            src="../content/img/Kosciol01.jpg"
+            alt="Kościół w remoncie 01"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol02.jpg"
+            alt="Kościół w remoncie 02"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol03.jpg"
+            alt="Kościół w remoncie 03"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol04.jpg"
+            alt="Kościół w remoncie 04"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol05.jpg"
+            alt="Kościół w remoncie 05"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol06.jpg"
+            alt="Kościół w remoncie 06"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol07.jpg"
+            alt="Kościół w remoncie 07"
+            placeholder="blurred"
+            width={800}/>&nbsp;
         </main>
         <Footer/>
       </Wrapper>
