@@ -9,7 +9,9 @@ import { PostCard } from '../components/PostCard';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
-import { inner, outer, PostFeed, SiteHeader, SiteNavMain } from '../styles/shared';
+import {
+ inner, outer, PostFeed, SiteHeader, SiteNavMain,
+} from '../styles/shared';
 import type { PageContext } from '../templates/post';
 
 type NotFoundTemplateProps = {
