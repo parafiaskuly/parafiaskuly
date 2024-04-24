@@ -1,61 +1,25 @@
 ---
-layout: Dofinansowanie 
-title: Remont Kościoła w Skułach
+layout: post
+title: Rady dla młodych wierzących
 author: [Proboszcz]
 tags: [Ogłoszenia]
 image: img/james-coleman-QHRZv6PIW4s-unsplash.jpg
 date: 2021-09-05T06:00:00.000Z
-draft: Prawda
+draft: false
 excerpt:
 ---
-Mamy w Polsce piękny, jeden z nielicznych, drewnianych zabytków, którego historia sięga jeszcze najlepszych czasów Korony Królestwa Polskiego i Najjaśniejszej Rzeczpospolitej. We wsi Skuły (mazowieckie) pierwszy kościół zbudowany został w poł. XIV w., później na jego miejscu powstał kolejny, drewniany w XVI w., lecz nie przetrwał potopu szwedzkiego. Obecny kościół pw. Świętych Piotra i Pawła zbudowano w 1674 r. dzięki staraniom miejscowego dziedzica Seweryna Skulskiego i wizytatora Misjonarzy ks. Mikołaja Dufaerroy. 
-Stanowi przykład ludowej architektury sakralnej z wnętrzem ozdobionym iluzjonistyczna polichromią wykonaną na płótnie. Jest niewielki i z zewnątrz dość skromny, ale zachwyca skąpanym w lekkim półmroku wnętrzem. 
 
-Przetrwał do dziś dzięki temu, że nasi przodkowie nie szczędzili uwagi, środków ani wysiłków – nawet podczas II wojny światowej. By tylko wspomnieć największe prace:
-	Po stu latach w 1774 r., kościół przeszedł gruntowny remont, podczas którego dobudowano zakrystię, a ściany obito płótnem, na którym wykonano malowidła – polichromie. 
-	W latach 1889-1894, pod kierunkiem architekta Juliana Ankwicza kościół przeszedł kolejny remont (m.in. wymieniono podwaliny, wyremontowano konstrukcję dachową, wymieniono gontowe pokrycie dachowe na nowe).
-	W latach 1895-1900 kościół odmalowano od zewnątrz, a wnętrze częściowo przemalowano oraz uzupełniono malowidła. 
-	W 1927 r. w świątyni wymieniono na nowe podwaliny i pokryto dach blachą. 
-	W latach 1939-1940 wykonane zostało ogrodzenie świątyni. 
-	W latach 1980-1982 – miały miejsce kolejne prace ciesielskie w kościele przy remoncie więźby dachowej oraz konstrukcji ścian, jak również wymieniono podwaliny. 
-	Ostatni większy remont miał miejsce w 1995 r. Wymieniono wówczas dźwigary, podłogę, szalunek, o 30 cm podniesiono zakrystię i prezbiterium oraz wyremontowano poddasze. Teren kościoła otoczono ogrodzeniem i uporządkowano teren przykościelny. 
-Osiemnastowieczne wyposażenie kościoła wykonane jest w drzewie modrzewiowym. Ołtarz główny, dedykowany Chrystusowi Ukrzyżowanemu i ołtarze boczne, z obrazami Wniebowzięcia Najświętszej Maryi Panny i Matki Bożej, utrzymane są w stylu barokowym, natomiast ambona, chrzcielnica i konfesjonały w stylu rokokowym. Na chórze muzycznym zainstalowano organy napędzane miechem nożnym, zbudowane przez Z. Kamińskiego w latach trzydziestych XX w. 
-Dziś zabytek jest w bardzo złym stanie technicznym. Przeciekający dach niszczy sztukaterie i polichromię. Przecieki mają również bezpośredni wpływ na konstrukcję więźby i pozostałe pomieszczenia znajdujące się pod przeciekającym dachem i stropem. 
+Gdy Barnaba przybył do Antiochii, gdzie wielu ludzi uwierzyło, "napominał wszystkich, aby trwali przy Panu, Był to bowiem mąż dobry i pełen Ducha Świętego i wiary. Sporo też ludzi zostało pozyskanych dla Pana" (DzAp 11,23.24). Właśnie o to chodzi w życiu każdego Chrześcijanina, aby trwać przy Panu, gdyż tylko Chrystus posiada moc i pełnię tego wszystkiego, czym według Bożej woli masz być i co masz czynić. **Niektórzy wierzący przez długi czas po nawróceniu przeżywają radość.** Bóg jednak zna nasze serca i wie, jak szybko stajemy się zależni od naszych uczuć, a nie od Chrystusa. ON chce, aby obiektem naszej ufności nie była radość, ale sam Chrystus. Chociaż Bóg zgładził twoje grzechy i grzech ciebie już nie obciąża, to jednak do końca pozostajesz w swoim ciele, i ten stary pień wypuszcza swoje pączki, które muszą zostać natychmiast odcięte, aby nie mogły wydać swoich gorzkich owoców. Jak bowiem może wydać stary pień dobre owoce? Tylko nowa natura może przynieść owoc miły Bogu!
+Nie myśl więc o swoim grzesznym ciele, myśl o Chrystusie i szukaj Jego łaski, aby nie żyć już według ciała. Stopniowe wzrastanie w poznawaniu Boga daje o wiele większą radość od tej na początku — w momencie nawrócenia. Ja próbuje poznać Chrystusa już od około 40 lat i mogę ci szczerze powiedzieć, że obecnie posiadam w Nim o wiele więcej radości aniżeli na początku. Ta radość jest głębsza i spokojniejsza. Ona jest podobna do rzeki płynącej po równinie. Mimo większego uroku, strumień spadający z łoskotem z gór jest mniej użyteczny aniżeli woda płynąca spokojnie wśród dolin. Trwaj przy Panu!
 
-Teraz nasza kolej, by uchronić przed całkowitą degradacją tak cennego, niemego świadka historii dziejów naszego narodu, by służył kolejne 100 lat jako świątynia, dziedzictwo i pomnik następnym pokoleniom.
-II.	ZAKRES PRAC
+Zagładą Chrześcijanina jest serce podzielone i odwrócone od Pana. Jeżeli dążymy do czegoś, co nie harmonizuje z Chrystusem, to jesteśmy oddzieleni od źródła mocy. Natomiast gdy dusza jest wypełniona Chrystusem, to nasze oczy i serca nie są związane z niedorzecznościami tego świata. Jeżeli Chrystus przez wiarę mieszka w twoim sercu, nie będziesz pytał: czy w tym co czynisz, jest coś złego, ale raczej — czy to co czynisz, podoba się Panu. Czy On w tym może ci towarzyszyć?
 
-Aby uchronić ten unikalny zabytek zostały zaplanowane niezbędne prace na terenie kościoła i wokół niego. W ramach projektu planuje się wykonanie prac renowacyjnych, których celem będzie zatrzymanie degradacji zabytkowego kościoła w Skułach.
+**Dziś uważaj te czasy obecne** - Nie pozwól, aby świat wszedł do Twego serca i wprowadził zamieszanie do twoich myśli. Tutaj szczególnie zwracam się do was młodszych. Starsi już coś więcej z tego doświadczyli, czym jest świat i lepiej znają jego rzeczywistą wartość. Przed tobą świat stoi on jeszcze pełen powabu, próbując ciebie przyciągnąć. Jego uśmiech jest zwodniczy — ale mimo to uśmiecha się do Ciebie. **Świat a raczej zły daje obietnice, których nie może dotrzymać** — ale mimo to je daje. Wasze serca nie mogą zostać nim nasycone. On nie może ich wypełnić. One są za małe dla samego Chrystusa, dlatego nic obok Chrystusa nie może mieć trwałego miejsca w waszych sercach. On wypełnia niebiosa radością i On wypełni twoje serce aż do przelewu. Tylko trwaj przy Panu! Tylko trwaj stanowczo w przedsięwzięciu serca przy Panu.
 
-Prace wykonywane w kościele w Skułach:
-	Od wnętrza kościoła postemplować wszystkie stropy w odległości 50cm od ścian.
-	Rozebrać pokrycie kościoła z blachy wraz z deskowaniem.
-	Wszystkie elementy konstrukcyjne stropów i więźb z objawami porażenia przez korozję biologiczną należy dokładnie przejrzeć, ociosać i oczyścić z destruktu.
-	Przeprowadzić szczegółową ocenę stanu technicznego konstrukcji (bale, lisice, oczepy).
-	Usunąć destrukt stanowiący produkt korozji biologicznej z bali, wykonać flekowanie ubytków. Szacunkowo można przyjąć około 20%wymiany całej kubatury ścian gr.15cm.
-	Od strony wewnętrznej w sposób konserwatorski zdemontować obudowę deskową lisic-pilastrów. Ocenić stan techniczny lisic oraz bali w strefie lisic.
-	Wymienić deski okapowe pod odtworzoną szalówką.
-	Wykonać nowe pokrycie wraz z obróbkami, orynnowaniem i rurami spustowymi z blachy tytanowo–cynkowej gr. 0,7mm ułożonej na podwójny rąbek stojący z zastosowaniem membrany systemowej pod blachę.
-	Naprawić wykończenie podmurówki kamiennej poprzez skucie odspajających się tynków, wyrównanie i wygładzenie zaprawą cementową.
-	Wokół kościoła wykonać nową opaskę żwirową o szer. 50cmi grubości min 10cm, z obrzeżem granitowymi ze spadkiem od kościoła min 3%wg
-	Wykonać konserwację okien oraz drzwi drewnianych zewnętrznych wejściowych. Należy wykonać następujące prace budowlano–konserwatorskie przy dzwonnicy:
-	Rozebrać istniejące schody i wykonać nowe schody betonowe wraz z podestem.
-	Podest oraz schody zaopatrzyć w drewnianą balustradę o wysokości 110cm.
-	Pękniętą podmurówkę wzmocnić.
-Przy wskazanych pracach ujęte zostało wykonanie robót dodatkowych, co jest podyktowane charakterem przedmiotowej inwestycji. Renowacja obiektu zabytkowego niesie za sobą roboty nieprzewidziane i niewidoczne na etapie dokumentacji. W tej pozycji uwzględniono około 20% robót, które mogą wystąpić.
+On wie, jak przewrotne jest serce ludzkie i jak szybko w miejsce Boga stawia ono cokolwiek innego. Dlatego rzeczywiście będziesz musiał nauczyć się poznawać, co jest w twoim własnym sercu. Tylko trwaj w Panu, a wtedy z poznaniem jego łaski, z Nim tego się nauczysz. W innym przypadku, ulegając diabelskim pokusom będziesz musiał tego nauczyć się poprzez gorzkie cierpienia. **Jeżeli więc jesteś na drodze od Boga i inne rzeczy wdarły się do twego serca, tworząc przegrodę między tobą i Bogiem, to chociaż uświadomisz sobie swój stan — radość natychmiast do ciebie nie powróci. Najpierw Bóg będzie musiał przyprowadzić cię pod ten mur, gdzie ty dokonasz sądu przed sobą i wrócisz do Niego.**
 
-Prace wykonywane wokół kościoła w Skułach: 
-	Wymiana nawierzchni - projektuje się nawierzchnię z kostki kamiennej granitowej o wymiarach 7/9 w kolorze szaro żółtym lub szaro rudym. Obrzeże granitowe o wymiarach 8 x 25 (h) cm.
-	Wymiana opaski betonowej wokół kościoła - W miejsce istniejącej opaski betonowej wykonać opaskę żwirową z płukanego kolorowego żwiru rzecznego (kolor beżowy i żółty). Szerokość opaski 50 cm ze spadkiem min 3% od kościoła. Grubość warstwy żwiru oraz podbudowy z podsypki piaskowej min 10 cm. Obrzeże granitowe o wymiarach 6 x 20 (h) cm.
-	Nowo projektowana brama od strony zachodniej-Projektuje się bramę metalową o szerokości 250 cm i wysokości 170 cm.
-	Obiekty małej architektury-Drewniane obiekty małej architektury takie jak figury Apostołów Piotra i Pawła oraz św. Jana Pawła II, drewniany krzyż i kaplica nie wymagają specjalistycznych zabiegów konserwatorskich. Należy je poddać bieżącej konserwacji. To samo dotyczy tablicy pamiątkowej poświęconej księdzu prałatowi Marianowi Laskowskiemu.
-	Pękniętą betonową podstawę zegara słonecznego należy poddać konserwacji i reperacji metodami ogólnobudowlanymi oraz 2 krotnie pomalować w kolorze białym– analogicznym jak obecnie.
-	Elementy wyposażenia parkowego -Tablica informacyjna – demontaż tablicy wraz z dwuteownikami, uzupełnienie uszkodzonych warstw malarskich (krawędzie) i odświeżenie całej powierzchni profili. 
-Całkowita wartość projektu –  1.665.385,42 zł brutto,
-Podstawa obliczenia dotacji (koszty kwalifikowane) – 1.249.383,88 zł netto,
-Wartość dotacji UE (80% kosztów kwalifikowanych) – 999.507,10 zł,
-Wartość wkładu własnego (20% kosztów kwalifikowanych) – 249.876,78 zł,
-Wartość podatku VAT (23%), którego nie możemy odzyskać – 416.001,54 zł
-RAZEM WKŁAD WŁASNY WRAZ Z PODATKIEM VAT POTRZEBNY DO ZABEZPIECZENIA NA CAŁĄ RELIZACJĘ PROJEKTU, KTÓRA BĘDZIE TRWAŁA DO KOŃCA LIPCA 2023 r., to 665.878,32 zł.
+**Pomyśl — przecież Chrystus wykupił cię swoją własną krwią, abyś należał do Niego, nie do świata!** Nie pozwól, aby szatan wszedł pomiędzy ciebie i Bożą łaskę! Jakkolwiek Jego zaniedbałeś, dokądkolwiek od Niego się odwróciłeś, jeżeli chcesz do Niego powrócić, możesz zaufać jego miłości. On z największą radością zobaczy cię znowu u siebie. Popatrz na grzech z obrzydzeniem, nigdy nie nadużywaj Bożej miłości i łaski. On ciebie tak bardzo umiłował, miłuje cię nadal i będzie miłował aż do końca. Dużo rozmawiaj z Jezusem — twoim Zbawicielem. **Nie bądź nigdy zadowolony, jeżeli nie możesz rozmawiać z Nim jak z umiłowanym przyjacielem.** Niechaj żadna rzecz ciebie nie zadawala, jeżeli przez to zostanie zaniedbana twoja najściślejsza społeczność z Chrystusem, który cię umiłował i obmył z grzechu swoją własną krwią. Pomyśl o tym, że to ON na krzyżu wziął sąd za twoje grzechy, aby ciebie uczynić swoją własnością.
 
+Słowo „Ewangelia” oznacza po prostu dobrą nowinę (dobre wieści). Jezus powiedział: „Opamiętajcie się i wierzcie ewangelii.” Mar. 1:15 Dlatego zachęca On ciebie, abyś się odwrócił od swoich grzechów i otworzył serce na dobrą nowinę! Zrób to już dziś!
 
+Przyjmij do wiadomości, że jesteś zgubionym grzesznikiem. Nie zasługujesz na dar Boży. Przez wiarę zapragnij, aby Pan Jezus Chrystus stał się twoim Jedynym Panem i Zbawicielem. Dzięki jego łasce możesz zapragnąć przyznać się do Niego, przed innymi ludźmi. Poproś Go o tę łaskę aby byc naprawdę szczęsliwym bo Bóg tego chce dla człowieka. Amen.
