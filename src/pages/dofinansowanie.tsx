@@ -248,13 +248,63 @@ function StaticContent() {
             placeholder="blurred"
             width={800}/>&nbsp;
           <StaticImage
+            src="../content/img/Kosciol11.jpg"
+            alt="Kościół w remoncie 11"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
             src="../content/img/Kosciol06.jpg"
             alt="Kościół w remoncie 06"
             placeholder="blurred"
             width={800}/>&nbsp;
           <StaticImage
+            src="../content/img/Kosciol08.jpg"
+            alt="Kościół w remoncie 08"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol16.jpg"
+            alt="Kościół w remoncie 16"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol09.jpg"
+            alt="Kościół w remoncie 09"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol13.jpg"
+            alt="Kościół w remoncie 13"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol17.jpg"
+            alt="Kościół w remoncie 17"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
             src="../content/img/Kosciol07.jpg"
             alt="Kościół w remoncie 07"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol15.jpg"
+            alt="Kościół w remoncie 15"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol10.jpg"
+            alt="Kościół w remoncie 10"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol12.jpg"
+            alt="Kościół w remoncie 12"
+            placeholder="blurred"
+            width={800}/>&nbsp;
+          <StaticImage
+            src="../content/img/Kosciol14.jpg"
+            alt="Kościół w remoncie 14"
             placeholder="blurred"
             width={800}/>&nbsp;
         </main>
