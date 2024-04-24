@@ -28,8 +28,8 @@ import { Helmet } from 'react-helmet';
 import config from '../website-config';
 
 type AuthorTemplateProps = {
-  location: Location;
-  data: {
+  readonly location: Location;
+  readonly data: {
     logo: {
       childImageSharp: {
         fluid: any;

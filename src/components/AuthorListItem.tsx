@@ -12,8 +12,8 @@ import { AuthorProfileImage } from './PostCard';
 import styled from '@emotion/styled';
 
 type AuthorListItemProps = {
-  tooltip: 'small' | 'large';
-  author: Author;
+  readonly tooltip: 'small' | 'large';
+  readonly author: Author;
 };
 
 export function AuthorListItem(props: AuthorListItemProps) {

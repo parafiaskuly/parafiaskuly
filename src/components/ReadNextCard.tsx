@@ -9,9 +9,9 @@ import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
 
 export type ReadNextProps = {
-  tags: string[];
-  currentPageSlug: string;
-  relatedPosts: {
+  readonly tags: string[];
+  readonly currentPageSlug: string;
+  readonly relatedPosts: {
     totalCount: number;
     edges: Array<{
       node: {

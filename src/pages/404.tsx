@@ -15,7 +15,7 @@ import {
 import type { PageContext } from '../templates/post';
 
 type NotFoundTemplateProps = {
-  data: {
+  readonly data: {
     allMarkdownRemark: {
       totalCount: number;
       edges: Array<{
