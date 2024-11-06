@@ -3,7 +3,7 @@ layout: post
 title: XXXI Niedziela Zwykła — 27.10.2024 r.
 author: [ Proboszcz ]
 tags: [ Ogłoszenia ]
-image: img/Kosciol.JPG
+image: img/Kosciol.jpg
 date: 2024-10-27T06:00:00.000Z
 draft: false
 excerpt: 
