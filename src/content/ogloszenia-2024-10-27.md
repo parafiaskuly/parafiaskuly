@@ -9,7 +9,7 @@ draft: false
 excerpt: 
 ---
 
-1. Dziękuje za przygotowanie kościoła  na  dzisiejszą niedzielę mieszkańcom Skuł ul Ekologiczna i Dębowa.  Msza święta w intencji mieszkańców Skuł będzie dnia…………………….. o godz. 17.00.  A   na  następny tydzień zapraszam do sprzątania kościoła mieszkańców Skuł. ul. Skulska i Mszczonowska  Sprzątanie w czwartek przed dniem wszystkich świętych o godz. – ustalonej z panem Sołtysem Skuł. 
+1. Dziękuje za przygotowanie kościoła  na  dzisiejszą niedzielę mieszkańcom Skuł ul Ekologiczna i Dębowa.  Msza święta w intencji mieszkańców Skuł będzie dnia 19 listopada o godz. 17.00.  A   na  następny tydzień zapraszam do sprzątania kościoła mieszkańców Skuł. ul. Skulska i Mszczonowska  Sprzątanie w czwartek przed dniem wszystkich świętych o godz. – ustalonej z panem Sołtysem Skuł. 
 2. Ofiary na kościół można  składać po Mszach św. w zakrystii jak również  na konto parafii,  nr konta **97 9291 0001 0210 5329 2000 0010** Dziękuję za każdą ofiarę. 
 3. Z ofiar indywidualnych za zakup sztachet do ogrodzenia mamy sumę 8500 zł za każdą ofiarę na ten cel  dziękuję, ofiary te można składać po  Mszach świętych w zakrystii lub na konto parafii. Bóg zapłać.  
 4. Przypominam rodzicom i dzieciom i młodzieży o obowiązku uczestniczenia we Mszy św. w niedziele.  
