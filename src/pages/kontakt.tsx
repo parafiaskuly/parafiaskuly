@@ -69,9 +69,9 @@ function Kontakt() {
                   </p>
                   <h6>Kancelaria</h6>
                   <p>
-                    <strong>Poniedziałek:</strong> 8:00 - 10:00<br/>
+                    <strong>Poniedziałek:</strong> 9:00 - 10:00<br/>
                     <strong>Środa:</strong> 8:00 - 10:00<br/>
-                    <strong>Sobota:</strong> 16:00 - 18:00<br/>
+                    <strong>Piątek:</strong> 16:00 - 17:45<br/>
                     <strong>telefon:</strong> <a href="tel:+48 46 857 98 26">+48 46 857 98 26</a>
                   </p>
                   <h6>Proboszcz</h6>
